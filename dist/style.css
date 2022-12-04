@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+  overflow-x: hidden;
+  background: url(/passenger_counter_app/Images/rows-red-seats-theater.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.counter-app {
+  padding: 2rem 0;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10rem;
+  background-color: rgba(236, 0, 0, 0.062);
+  border: 2px solid yelow;
+  max-width: 300px;
+  border-radius: 5px;
+}
+.counter-app h2 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.counter-app button {
+  display: block;
+  margin: 1rem auto;
+  width: 80%;
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  padding: 0.5rem 0;
+}
+.counter-app #save-el:hover,
+.counter-app #add-el:hover {
+  background: green;
+}
+.counter-app #save-el:hover {
+  color: white;
+}
+.counter-app #save-el:focus,
+.counter-app #add-el:focus {
+  border: 2px solid grey;
+  padding: 0.3rem 0;
+  width: 75%;
+}
+.counter-app #save-el {
+  background: white;
+  color: red;
+}
+.counter-app #add-el {
+  color: white;
+  background: red;
+}/*# sourceMappingURL=style.css.map */
