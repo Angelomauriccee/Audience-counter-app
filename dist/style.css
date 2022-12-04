@@ -15,7 +15,7 @@ html {
 body {
   font-family: "poppins";
   overflow-x: hidden;
-  background: url(/passenger_counter_app/Images/rows-red-seats-theater.jpg);
+  background: url(https://img.freepik.com/free-photo/rows-red-seats-theater_53876-64711.jpg?w=740&t=st=1670125227~exp=1670125827~hmac=544332818a8babaf1cf248315df34103781551f91094735c3e24e2f1a0ec8547);
   background-size: cover;
   height: 100vh;
 }
